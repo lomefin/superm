@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Súper M - La Película">
+    <meta name="description" content="Sitio web oficial de la Película Súper M">
+    <meta property="og:type"        content="video.movie" />
+    <meta property="og:title"       content="SúperM" /> 
+    <meta property="og:image" content="http://www.superm.cl/images/logo.png" />
+    <link rel="alternate" hreflang="es" href="http://www.superm.cl" />
+    <meta Name="Keywords" content="super, m, super m, pelicula, corto, cortometraje, costanera, mama, niño, perro, basuka, bazuka, costanera center, center, santiago, san cristobal, cerro, destruccion, caida, demolicion, graficos, vfx, jumpcats, efectos, efectos visuales, visual, effects, jump, cats, productora, panoptiko, sow, audiovisual, imagen, video, sonido, misil, bala, cañon, building, edificio, animacion, grafico, diseño, produccion, 3d, HD, 2014, espectacular, gran, tremenda, tremendo, impresionante, innovacion, novedoso, emprendedor, emprendimiento, great">
+    <meta http-equiv="Content-Language" content="es">
+    <title>Súper M</title>
+    <style>
+      body {
+        background-image: url('images/fondo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed
+      }
+
+      a:link { color:#00387a; text-decoration: none }
+      a:active { color:#00387a; text-decoration: none }
+      a:visited { color:#00387a; text-decoration: none }
+      a:hover { color:#2381c2; text-decoration: none }
+    </style>
+    <%= stylesheet_link_tag "all" %>  
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56998016-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+  <body>
+    <%= yield %>
+    <%= javascript_include_tag  "all", defer: "defer", async: "async" %>
+  </body>
+</html>

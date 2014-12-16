@@ -1,0 +1,35 @@
+header {
+  div.social {
+    padding-top: 32px;
+    margin-bottom: 12px;
+    img { 
+      width: 64px;
+      height: 64px;
+      margin-right: 1em;
+    }
+  }
+  div.logo {
+    text-align: center;
+    height: 180px;
+    img {
+      margin: 0 auto;
+    };
+  }
+}
+
+section {
+  margin-top: 3em;
+  a {
+    margin-right: 1em;
+  }
+  margin-bottom: 3em;
+}
+
+body {
+  padding-bottom: 10em;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
